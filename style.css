@@ -169,7 +169,7 @@ img {
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 32px;
+    gap: 22px;
     color: var(--muted);
     font-size: .92rem;
 }
@@ -1497,11 +1497,23 @@ h1 {
    16. RESPONSIVE DESIGN
    ========================================================================== */
 
-@media (max-width: 860px) {
+@media (max-width: 900px) {
 
     .container {
         width: min(var(--max), calc(100% - 36px));
     }
+
+    .nav-links {
+        gap: 16px;
+        font-size: .88rem;
+    }
+
+    .nav-contact {
+        padding: 7px 14px !important;
+    }
+}
+
+@media (max-width: 640px) {
 
     .menu-toggle {
         display: flex;
@@ -1628,6 +1640,9 @@ h1 {
         opacity: 0.95;
         transform: translateY(-2px);
     }
+}
+
+@media (max-width: 860px) {
 
     .hero {
         grid-template-columns: 1fr;
