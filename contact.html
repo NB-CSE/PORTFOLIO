@@ -75,23 +75,21 @@
 
                     <div class="contact-list">
 
-                        <!-- Email Item with Copy Button -->
-                        <div class="contact-item">
+                        <!-- Email Item with Click to Compose & Copy Button -->
+                        <a class="contact-item" href="mailto:nareshbehra911@gmail.com?subject=Hello%20Naresh&body=Hi%20Naresh,%0A%0A" title="Click to compose email directly">
                             <span class="contact-icon">✉</span>
                             <div>
-                                <small>EMAIL ADDRESS</small>
-                                <strong>nareshbehra58@gmail.com</strong>
+                                <small>EMAIL ADDRESS (CLICK TO COMPOSE)</small>
+                                <strong>nareshbehra911@gmail.com</strong>
                             </div>
                             <div style="display: flex; gap: 8px; align-items: center;">
                                 <button type="button" class="copy-btn"
-                                    onclick="copyEmail('nareshbehra58@gmail.com', event)">
+                                    onclick="copyEmail('nareshbehra911@gmail.com', event)" title="Copy email address">
                                     Copy
                                 </button>
-                                <a href="mailto:nareshbehra58@gmail.com" class="contact-arrow" title="Send email">
-                                    ↗
-                                </a>
+                                <span class="contact-arrow">↗</span>
                             </div>
-                        </div>
+                        </a>
 
                         <!-- GitHub Item -->
                         <a class="contact-item" href="https://github.com/NB-CSE" target="_blank"
