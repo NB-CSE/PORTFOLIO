@@ -134,6 +134,22 @@ img {
     transform: scale(1.02);
 }
 
+.brand-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-2);
+    box-shadow: 0 0 12px rgba(85, 223, 194, 0.35);
+    flex-shrink: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-avatar:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 16px rgba(85, 223, 194, 0.55);
+}
+
 .brand-mark {
     display: grid;
     place-items: center;
@@ -1435,7 +1451,28 @@ h1 {
     gap: 20px;
     color: var(--muted);
     font-size: .84rem;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: var(--muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+    color: var(--accent-2);
+}
+
 
 .footer-inner p {
     margin: 0;

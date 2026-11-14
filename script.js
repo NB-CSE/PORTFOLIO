@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const message = document.getElementById('formMessage')?.value.trim() || '';
 
             const bodyContent = `Hi Naresh,\n\n${message}\n\n---\nFrom: ${name}\nEmail: ${email}`;
-            const mailtoUri = `mailto:nareshbehra911@gmail.com?subject=${encodeURIComponent(subject + ' - via Portfolio')}&body=${encodeURIComponent(bodyContent)}`;
+            const mailtoUri = `mailto:nareshbehra58@gmail.com?subject=${encodeURIComponent(subject + ' - via Portfolio')}&body=${encodeURIComponent(bodyContent)}`;
 
             window.location.href = mailtoUri;
             showToast('Opening your email client to send message...');
