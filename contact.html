@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact Naresh Behra - B.Tech CSE (AI/ML) student. Reach out via email, LinkedIn, or GitHub for opportunities.">
+    <meta name="keywords" content="Naresh Behra, Contact, Email, LinkedIn, GitHub, Jamshedpur">
+    <meta name="theme-color" content="#0b1020">
+
+    <title>Contact | Naresh Behra</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="education.html">Education</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="nav-contact active">Contact <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="contact-section">
+            <div class="container contact-grid">
+
+                <!-- Left Column: Contact Channels -->
+                <div>
+                    <p class="eyebrow">05 / GET IN TOUCH</p>
+
+                    <h2>
+                        Let's connect &<br>
+                        <span class="gradient-text">build something useful.</span>
+                    </h2>
+
+                    <p class="contact-intro">
+                        Whether you have an internship opportunity, a project idea, a question regarding my work, or
+                        just want to say hello, feel free to drop me a message.
+                    </p>
+
+                    <div class="contact-list">
+
+                        <!-- Email Item with Copy Button -->
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <small>EMAIL ADDRESS</small>
+                                <strong>nareshbehra911@gmail.com</strong>
+                            </div>
+                            <div style="display: flex; gap: 8px; align-items: center;">
+                                <button type="button" class="copy-btn"
+                                    onclick="copyEmail('nareshbehra911@gmail.com', event)">
+                                    Copy
+                                </button>
+                                <a href="mailto:nareshbehra911@gmail.com" class="contact-arrow" title="Send email">
+                                    ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- GitHub Item -->
+                        <a class="contact-item" href="https://github.com/NB-CSE" target="_blank"
+                            rel="noopener noreferrer">
+                            <span class="contact-icon">⌘</span>
+                            <div>
+                                <small>GITHUB PROFILE</small>
+                                <strong>github.com/NB-CSE</strong>
+                            </div>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+
+                        <!-- LinkedIn Item -->
+                        <a class="contact-item" href="https://www.linkedin.com/in/naresh-b25269381" target="_blank"
+                            rel="noopener noreferrer">
+                            <span class="contact-icon">in</span>
+                            <div>
+                                <small>LINKEDIN NETWORK</small>
+                                <strong>linkedin.com/in/naresh-b25269381</strong>
+                            </div>
+                            <span class="contact-arrow">↗</span>
+                        </a>
+
+                        <!-- Location Item -->
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <small>LOCATION</small>
+                                <strong>Jamshedpur, Jharkhand, India</strong>
+                            </div>
+                            <span style="color: var(--muted); font-size: 0.8rem;">IST</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Availability Note -->
+                    <div style="margin-top: 30px; padding: 18px 22px; border-radius: var(--radius-md); background: rgba(85, 223, 194, 0.08); border: 1px solid rgba(85, 223, 194, 0.25); display: flex; align-items: center; gap: 14px;">
+                        <span class="status-dot"></span>
+                        <span style="font-size: 0.88rem; color: var(--text);">
+                            <strong>Open for Opportunities:</strong> Looking for student software internships, tech projects & mentorship.
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Right Column: Interactive Contact Form -->
+                <div>
+                    <div class="contact-form-card">
+                        <h3>Send a Direct Message</h3>
+                        <p>Fill out the fields below to email me directly from your browser.</p>
+
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label class="form-label" for="formName">Your Name</label>
+                                <input class="form-input" type="text" id="formName" name="name"
+                                    placeholder="e.g. Alex Johnson" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formEmail">Your Email</label>
+                                <input class="form-input" type="email" id="formEmail" name="email"
+                                    placeholder="e.g. alex@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formSubject">Subject</label>
+                                <input class="form-input" type="text" id="formSubject" name="subject"
+                                    placeholder="e.g. Internship Inquiry / Collaboration" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="formMessage">Message</label>
+                                <textarea class="form-textarea" id="formMessage" name="message"
+                                    placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="button button-primary" style="width: 100%; justify-content: center;">
+                                Send Message <span>↗</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <p>Designed with curiosity and built with HTML, CSS & JavaScript.</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/naresh-b25269381" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:nareshbehra911@gmail.com">Email</a>
+            </div>
+
+            <span>© <span class="current-year">2026</span> Naresh Behra</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+

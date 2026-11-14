@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Projects showcase by Naresh Behra - Portfolio website, C++ applications, Python data tools, and algorithms.">
+    <meta name="keywords" content="Naresh Behra, Projects, C++, Python, Web Development, JavaScript, Portfolio">
+    <meta name="theme-color" content="#0b1020">
+
+    <title>Projects | Naresh Behra</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="education.html">Education</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html" class="nav-contact">Contact <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">04 / PROJECT SHOWCASE</p>
+                    <h2>
+                        Learning through <span class="gradient-text">building & shipping.</span>
+                    </h2>
+                    <p class="section-intro">
+                        A curated collection of web applications, software systems, and algorithmic projects. Each
+                        project is built to solve a problem and reinforce practical computer science concepts.
+                    </p>
+                </div>
+
+                <!-- Projects List -->
+                <div class="projects-list">
+
+                    <!-- PROJECT 1: Portfolio Website -->
+                    <article class="project-card">
+                        <div class="project-art">
+                            <div class="art-window">
+                                <div class="window-dots"><i></i><i></i><i></i></div>
+                                <div class="art-lines"><span></span><span></span><span></span></div>
+                                <div class="art-orb">NB</div>
+                            </div>
+                            <span class="art-label">PROJECT / 001</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-status">CURRENT PROJECT · LIVE</div>
+                            <h3>Personal Portfolio Website</h3>
+                            <p>
+                                A multi-page responsive portfolio built with semantic HTML5, modern CSS3 (custom CSS
+                                variables, glassmorphic dark theme, responsive grid), and vanilla JavaScript. Features
+                                clean modular pages, active navigation state detection, zero external framework bloat,
+                                and instant load times.
+                            </p>
+
+                            <div class="skill-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Responsive Design</span>
+                                <span>GitHub Pages</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="index.html" class="project-btn project-btn-primary">
+                                    Live Preview ↗
+                                </a>
+                                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer"
+                                    class="project-btn project-btn-secondary">
+                                    GitHub Profile ↗
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: Student Record Management System -->
+                    <article class="project-card">
+                        <div class="project-art" style="background: radial-gradient(circle at 50% 45%, rgba(139, 156, 255, .18), transparent 50%), linear-gradient(145deg, #162039, #0d1424);">
+                            <div class="art-window">
+                                <div class="window-dots"><i></i><i></i><i></i></div>
+                                <div class="art-lines">
+                                    <span style="background: linear-gradient(90deg, #55dfc2, rgba(139, 156, 255, .3)); width: 80%;"></span>
+                                    <span style="background: linear-gradient(90deg, #55dfc2, rgba(139, 156, 255, .3)); width: 55%;"></span>
+                                    <span style="background: linear-gradient(90deg, #55dfc2, rgba(139, 156, 255, .3)); width: 70%;"></span>
+                                </div>
+                                <div class="art-orb" style="background: linear-gradient(135deg, #5de2c5, #8b9cff);">C++</div>
+                            </div>
+                            <span class="art-label">PROJECT / 002</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-status" style="color: var(--accent);">CONSOLE SOFTWARE · C++</div>
+                            <h3>Student Record Management System</h3>
+                            <p>
+                                An object-oriented management software developed in C++ using file handling (fstream)
+                                for persistent data storage. Implements structured classes to create, search by roll
+                                number, update, sort, and calculate student grades with input validation and clean CLI
+                                menus.
+                            </p>
+
+                            <div class="skill-tags">
+                                <span>C++</span>
+                                <span>OOP</span>
+                                <span>File Handling</span>
+                                <span>Data Structures</span>
+                                <span>Algorithms</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer"
+                                    class="project-btn project-btn-primary">
+                                    View on GitHub ↗
+                                </a>
+                                <a href="contact.html" class="project-btn project-btn-secondary">
+                                    Request Demo Code ↗
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: NumPy Data Analysis Tool -->
+                    <article class="project-card">
+                        <div class="project-art" style="background: radial-gradient(circle at 50% 45%, rgba(85, 223, 194, .18), transparent 50%), linear-gradient(145deg, #1b263b, #0f172a);">
+                            <div class="art-window">
+                                <div class="window-dots"><i></i><i></i><i></i></div>
+                                <div class="art-lines">
+                                    <span style="background: linear-gradient(90deg, #8b9cff, rgba(85, 223, 194, .3)); width: 60%;"></span>
+                                    <span style="background: linear-gradient(90deg, #8b9cff, rgba(85, 223, 194, .3)); width: 85%;"></span>
+                                    <span style="background: linear-gradient(90deg, #8b9cff, rgba(85, 223, 194, .3)); width: 45%;"></span>
+                                </div>
+                                <div class="art-orb">Py</div>
+                            </div>
+                            <span class="art-label">PROJECT / 003</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-status">DATA SCIENCE · PYTHON</div>
+                            <h3>Numerical Data Analyzer</h3>
+                            <p>
+                                A Python-based scientific utility that leverages NumPy's N-dimensional array processing
+                                to calculate statistical summaries (mean, variance, standard deviation), execute
+                                vectorized matrix multiplications, and clean multi-dimensional tabular datasets.
+                            </p>
+
+                            <div class="skill-tags">
+                                <span>Python</span>
+                                <span>NumPy</span>
+                                <span>Data Processing</span>
+                                <span>Vectorization</span>
+                                <span>Math Modeling</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer"
+                                    class="project-btn project-btn-primary">
+                                    View on GitHub ↗
+                                </a>
+                                <a href="skills.html" class="project-btn project-btn-secondary">
+                                    Related Skills ↗
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 4: Sorting Algorithm Visualizer -->
+                    <article class="project-card">
+                        <div class="project-art" style="background: radial-gradient(circle at 50% 45%, rgba(139, 156, 255, .18), transparent 50%), linear-gradient(145deg, #172138, #0e1526);">
+                            <div class="art-window">
+                                <div class="window-dots"><i></i><i></i><i></i></div>
+                                <div class="art-lines">
+                                    <span style="height: 12px; width: 30%; background: #55dfc2;"></span>
+                                    <span style="height: 24px; width: 50%; background: #8b9cff;"></span>
+                                    <span style="height: 36px; width: 70%; background: #55dfc2;"></span>
+                                </div>
+                                <div class="art-orb" style="background: linear-gradient(135deg, #8b9cff, #55dfc2);">DSA</div>
+                            </div>
+                            <span class="art-label">PROJECT / 004</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-status" style="color: var(--accent);">ALGORITHMS & JS</div>
+                            <h3>Sorting Algorithm Visualizer</h3>
+                            <p>
+                                An interactive web-based visualizer designed to demonstrate sorting algorithms (Bubble
+                                Sort, Selection Sort, and Insertion Sort) in action. Users can dynamically generate
+                                randomized arrays, control visualization speed, and see comparisons and swaps visually
+                                in real-time.
+                            </p>
+
+                            <div class="skill-tags">
+                                <span>JavaScript</span>
+                                <span>CSS Animations</span>
+                                <span>Sorting Algorithms</span>
+                                <span>DOM Manipulation</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer"
+                                    class="project-btn project-btn-primary">
+                                    View on GitHub ↗
+                                </a>
+                                <a href="contact.html" class="project-btn project-btn-secondary">
+                                    Discuss Logic ↗
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Transparency Note -->
+                <p class="honesty-note">
+                    <span>✳</span> All listed projects are self-developed and represent genuine academic and personal learning milestones. New projects are pushed regularly.
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <p>Designed with curiosity and built with HTML, CSS & JavaScript.</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/naresh-b25269381" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:nareshbehra911@gmail.com">Email</a>
+            </div>
+
+            <span>© <span class="current-year">2026</span> Naresh Behra</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Naresh Behra - B.Tech Computer Science Engineering (AI/ML) student portfolio. Passionate about DSA, C++, web development, and artificial intelligence.">
+    <meta name="keywords"
+        content="Naresh Behra, Portfolio, CSE, AI ML, B.Tech, Jamshedpur, C++, DSA, Web Developer">
+    <meta name="author" content="Naresh Behra">
+    <meta name="theme-color" content="#0b1020">
+
+    <!-- Open Graph for LinkedIn / WhatsApp preview -->
+    <meta property="og:title" content="Naresh Behra | CSE (AI/ML) Student Portfolio">
+    <meta property="og:description"
+        content="Portfolio of Naresh Behra - B.Tech CSE (AI/ML) student at Netaji Subhas University, Jamshedpur.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%230b1020'/><text x='50%' y='68%' font-family='sans-serif' font-weight='900' font-size='60' fill='%2355dfc2' text-anchor='middle'>N</text></svg>">
+
+    <title>Home | Naresh Behra</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ==============================
+         BACKGROUND EFFECTS
+    ================================= -->
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <!-- ==============================
+         NAVIGATION BAR
+    ================================= -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <!-- Brand Logo -->
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <!-- Mobile Menu Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <!-- Navigation Links -->
+            <div class="nav-links" id="navLinks">
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="education.html">Education</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="nav-contact">Contact <span>↗</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==============================
+         MAIN CONTENT
+    ================================= -->
+    <main>
+
+        <!-- ==============================
+             HERO SECTION
+        ================================= -->
+        <section class="hero container" id="home">
+            <!-- Hero Copy -->
+            <div class="hero-copy">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    CSE (AI/ML) UNDERGRADUATE · JAMSHEDPUR, INDIA
+                </p>
+
+                <h1>
+                    Hi, I'm
+                    <span class="gradient-text">Naresh Behra.</span>
+                    <br>
+                    Learning today.
+                    <br>
+                    <span class="outline-text">Building tomorrow.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Pursuing B.Tech in Computer Science Engineering with a specialization in Artificial Intelligence &
+                    Machine Learning at Netaji Subhas University. Dedicated to mastering Data Structures, algorithmic
+                    problem-solving in C++, and crafting high-performance, modern web applications.
+                </p>
+
+                <!-- Hero Buttons -->
+                <div class="hero-actions">
+                    <a class="button button-primary" href="projects.html">
+                        Explore My Work
+                        <span>↘</span>
+                    </a>
+
+                    <a class="button button-quiet" href="contact.html">
+                        Let's Connect
+                        <span>↗</span>
+                    </a>
+
+                    <a class="button button-quiet" href="about.html">
+                        About Me
+                        <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Hero Meta Line -->
+                <div class="hero-meta">
+                    <span class="meta-line"></span>
+                    <span>Curious mind. Algorithmic thinking. Consistent progress.</span>
+                </div>
+            </div>
+
+            <!-- ==============================
+                 PROFILE IMAGE / VISUAL
+            ================================= -->
+            <div class="hero-visual">
+                <div class="photo-frame">
+                    <!-- Image Header -->
+                    <div class="photo-topline">
+                        <span>PROFILE / 01</span>
+                        <span class="live-label">
+                            <i></i>
+                            OPEN TO WORK
+                        </span>
+                    </div>
+
+                    <!-- Profile Image with Fallback -->
+                    <img class="profile-photo"
+                         src="assets/images/profile.png"
+                         alt="Naresh Behra profile photo"
+                         onerror="this.classList.add('img-fallback'); document.getElementById('avatarFallback').classList.add('show');">
+
+                    <!-- Fallback Avatar (shown if image is missing) -->
+                    <div class="avatar-fallback" id="avatarFallback">
+                        <div class="avatar-fallback-initials">NB</div>
+                        <div class="avatar-fallback-name">Naresh Behra</div>
+                        <div class="avatar-fallback-tag">B.TECH CSE (AI/ML)</div>
+                    </div>
+
+                    <!-- Image Caption -->
+                    <div class="photo-caption">
+                        <div>
+                            <span class="caption-label">PORTFOLIO OF</span>
+                            <strong>Naresh Behra</strong>
+                        </div>
+                        <span class="caption-symbol">✳</span>
+                    </div>
+                </div>
+
+                <!-- Floating Decorative Chips -->
+                <div class="floating-chip chip-top">
+                    <span>⌘</span>
+                    DSA & C++ Explorer
+                </div>
+
+                <div class="floating-chip chip-bottom">
+                    <span>✦</span>
+                    AI/ML Enthusiast
+                </div>
+
+                <!-- Decorative Orbits -->
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <a class="scroll-cue" href="about.html">
+                <span class="scroll-mouse"></span>
+                SCROLL TO EXPLORE
+            </a>
+        </section>
+
+        <!-- ==============================
+             STATS STRIP SECTION
+        ================================= -->
+        <section class="container" style="margin-top: -20px; margin-bottom: 50px;">
+            <div class="stats-strip">
+                <div class="stat-item">
+                    <span class="stat-number">B.Tech CSE</span>
+                    <span class="stat-label">AI & MACHINE LEARNING</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">DSA & C++</span>
+                    <span class="stat-label">PROBLEM SOLVING FOCUS</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Web & Python</span>
+                    <span class="stat-label">CORE TECH STACK</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Available</span>
+                    <span class="stat-label">FOR INTERNSHIPS & PROJECTS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================
+             WELCOME / CAPABILITIES SECTION
+        ================================= -->
+        <section class="section section-alt">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT I BRING</p>
+                    <h2>
+                        Turning curiosity into
+                        <span class="gradient-text">practical capability.</span>
+                    </h2>
+                    <p class="section-intro">
+                        My development journey centers around solid computer science fundamentals, systematic problem
+                        solving, and modern application building.
+                    </p>
+                </div>
+
+                <!-- Quick Navigation Cards -->
+                <div class="skills-grid">
+                    <!-- About Card -->
+                    <article class="skill-card">
+                        <div class="skill-icon">01</div>
+                        <h3>About Me</h3>
+                        <p>
+                            Learn about my background, learning philosophy, and goals as a computer science
+                            undergraduate in AI/ML.
+                        </p>
+                        <a class="text-link" href="about.html">
+                            Read my story <span>↗</span>
+                        </a>
+                    </article>
+
+                    <!-- Skills Card -->
+                    <article class="skill-card">
+                        <div class="skill-icon">02</div>
+                        <h3>Technical Skills</h3>
+                        <p>
+                            Explore the programming languages, algorithms, web technologies, and AI tools I use and
+                            practice daily.
+                        </p>
+                        <a class="text-link" href="skills.html">
+                            View skill set <span>↗</span>
+                        </a>
+                    </article>
+
+                    <!-- Projects Card -->
+                    <article class="skill-card">
+                        <div class="skill-icon">03</div>
+                        <h3>Projects & Code</h3>
+                        <p>
+                            Discover the projects I've built, from responsive websites to console software and data
+                            analysis scripts.
+                        </p>
+                        <a class="text-link" href="projects.html">
+                            Explore projects <span>↗</span>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================
+             FEATURED SPOTLIGHT SECTION
+        ================================= -->
+        <section class="section container">
+            <div class="section-heading">
+                <p class="eyebrow">SPOTLIGHT PROJECT</p>
+                <h2>Featured <span class="gradient-text">Work.</span></h2>
+                <p class="section-intro">
+                    A quick preview of what I've been building recently.
+                </p>
+            </div>
+
+            <article class="project-card">
+                <div class="project-art">
+                    <div class="art-window">
+                        <div class="window-dots"><i></i><i></i><i></i></div>
+                        <div class="art-lines"><span></span><span></span><span></span></div>
+                        <div class="art-orb">NB</div>
+                    </div>
+                    <span class="art-label">FEATURED / 001</span>
+                </div>
+
+                <div class="project-info">
+                    <div class="project-status">CURRENT PROJECT · LIVE</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A clean, multi-page personal portfolio website engineered with modern semantic HTML5, CSS3
+                        (dark glassmorphism theme, CSS variables, flex/grid layouts), and vanilla JavaScript. Built
+                        without heavy frameworks for optimal loading speed, accessibility, and zero-dependency
+                        reliability.
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive UI</span>
+                        <span>GitHub Pages</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a href="projects.html" class="project-btn project-btn-primary">
+                            View Details ↗
+                        </a>
+                        <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer"
+                            class="project-btn project-btn-secondary">
+                            GitHub Profile ↗
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Call to Action Banner -->
+            <div style="margin-top: 60px; padding: 40px; border-radius: var(--radius-lg); background: linear-gradient(135deg, rgba(139, 156, 255, 0.08), rgba(85, 223, 194, 0.05)); border: 1px solid var(--line); display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+                <div>
+                    <h3 style="margin: 0 0 8px; font: 700 1.4rem 'Space Grotesk', sans-serif;">Interested in collaborating?</h3>
+                    <p style="margin: 0; color: var(--muted); font-size: 0.95rem;">I'm open for student internships, tech collaborations, and project discussions.</p>
+                </div>
+                <a href="contact.html" class="button button-primary">
+                    Get in Touch <span>↗</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==============================
+         FOOTER SECTION
+    ================================= -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">N</span>
+                <span>Naresh<span class="brand-dot">.</span></span>
+            </a>
+
+            <p>
+                Designed with focus & built with HTML, CSS & JavaScript.
+            </p>
+
+            <div class="footer-links">
+                <a href="https://github.com/NB-CSE" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/naresh-b25269381" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="mailto:nareshbehra911@gmail.com">Email</a>
+            </div>
+
+            <span>
+                © <span class="current-year">2026</span> Naresh Behra
+            </span>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
