@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const isOpen = navLinks.classList.toggle('open');
             menuToggle.setAttribute('aria-expanded', String(isOpen));
             menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
-            menuToggle.innerHTML = isOpen ? '✕' : '☰';
+            menuToggle.innerHTML = isOpen ? '&#10005;' : '&#9776;';
         });
 
         // Close on clicking any link inside menu
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.classList.remove('open');
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.setAttribute('aria-label', 'Open navigation');
-                menuToggle.innerHTML = '☰';
+                menuToggle.innerHTML = '&#9776;';
             });
         });
 
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.classList.remove('open');
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.setAttribute('aria-label', 'Open navigation');
-                menuToggle.innerHTML = '☰';
+                menuToggle.innerHTML = '&#9776;';
             }
         });
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 navLinks.classList.remove('open');
                 menuToggle.setAttribute('aria-expanded', 'false');
                 menuToggle.setAttribute('aria-label', 'Open navigation');
-                menuToggle.innerHTML = '☰';
+                menuToggle.innerHTML = '&#9776;';
             }
         });
     }
