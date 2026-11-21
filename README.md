@@ -1,2 +1,2 @@
-# Personal Developer Portfolio
+# Developer Portfolio
 
